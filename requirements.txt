@@ -1,0 +1,32 @@
+# ============================================================
+# DUBLYAJ LOYIHASI — kerakli kutubxonalar
+# O'rnatish: venv faollashtirilgandan keyin
+#   pip install -r requirements.txt
+# ============================================================
+
+# --- ASR + diarization + timestamp ---
+whisperx @ git+https://github.com/m-bain/whisperX.git
+torch
+torchaudio
+
+# --- Video/audio ishlov berish ---
+pydub
+ffmpeg-python
+
+# --- Tarjima uchun (LLM API client) ---
+anthropic
+python-dotenv
+
+# --- TTS (o'zbekcha ovoz) ---
+edge-tts
+
+# --- Umumiy yordamchi kutubxonalar ---
+tqdm
+numpy
+
+# --- Tarjima (Groq + fallback) ---
+groq
+deep-translator
+
+# --- Oyna (GUI): sichqoncha bilan videoni tashlash ---
+tkinterdnd2
